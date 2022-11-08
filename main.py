@@ -1,3 +1,5 @@
+from ModelDPM import vgg_net
+from ModelDPM import image_branch
 # This is a sample Python script.
 
 # Press Mayús+F10 to execute it or replace it with your code.
@@ -12,5 +14,7 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
+    x = image_branch()
+    print("Esto es:", x)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
